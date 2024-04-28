@@ -10,7 +10,7 @@
                 <Logo />
                 <!-- <a href="/">AA39</a> -->
             </li>
-            <li><small>Анонимные Алкоголики Калининградской области</small></li>
+            <li><small>Анонимные Алкоголики Калининград</small></li>
         </ul>
         <ul>
             <!-- <li><a href="/" class="secondary">Services</a></li> -->
