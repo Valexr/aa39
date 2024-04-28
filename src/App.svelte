@@ -13,7 +13,7 @@
             <li><small>Анонимные Алкоголики Калининградской области</small></li>
         </ul>
         <ul>
-            <li><a href="/" class="secondary">Services</a></li>
+            <!-- <li><a href="/" class="secondary">Services</a></li> -->
             <li>
                 <details class="dropdown">
                     <summary> Account </summary>
