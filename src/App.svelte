@@ -1,5 +1,6 @@
 <script lang="ts" context="module">
     import Logo from "$lib/components/Logo.svelte";
+    import Group from "$lib/components/Group.svelte";
 </script>
 
 <header class="container-fluid">
@@ -12,7 +13,7 @@
             <li><small>Анонимные Алкоголики Калининградской области</small></li>
         </ul>
         <ul>
-            <!-- <li><a href="#" class="secondary">Services</a></li> -->
+            <li><a href="/" class="secondary">Services</a></li>
             <li>
                 <details class="dropdown">
                     <summary> Account </summary>
@@ -62,7 +63,7 @@
         </cite>
     </blockquote>
 </main>
-
+<Group />
 <footer class="container-fluid">
     © {new Date().getFullYear()} <a href="https://aa39.ru">aa39.ru</a>
 </footer>
@@ -71,5 +72,8 @@
     @import "app.css";
     #logo {
         padding: 0;
+    }
+    li small {
+        line-height: 1ch;
     }
 </style>

@@ -1,13 +1,13 @@
 <script lang="ts" context="module">
-    import AA from "$svg/AA.svg";
+    import Group from "$svg/Group.svg";
 </script>
 
 <script lang="ts">
     export let href = "";
 </script>
 
-<a id="logo" {href}>
-    {@html AA}
+<a id="group" {href}>
+    {@html Group}
 </a>
 
 <style>
