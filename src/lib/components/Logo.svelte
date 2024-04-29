@@ -1,5 +1,6 @@
 <script lang="ts" context="module">
     import AA from "$svg/AA.svg";
+    import Icon from "./Icon.svelte";
 </script>
 
 <script lang="ts">
@@ -7,7 +8,8 @@
 </script>
 
 <a id="logo" {href}>
-    {@html AA}
+    <!-- {@html AA} -->
+    <Icon name="Logo" size="3em" />
 </a>
 
 <style>
